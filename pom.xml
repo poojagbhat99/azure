@@ -44,7 +44,7 @@
 					    <environment>${env}</environment>
 					    <objectStoreV2>true</objectStoreV2>
 					<properties>
-					<env>${dev}</env>
+					<env>${properties}</env>
 					</properties>
     				</cloudHubDeployment>
     				<coverage>
