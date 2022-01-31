@@ -14,6 +14,9 @@
 
 		<app.runtime>4.4.0-20211026</app.runtime>
 		<mule.maven.plugin.version>3.5.2</mule.maven.plugin.version>
+<sonar.sources>src/</sonar.sources>
+
+
 	</properties>
 
 	<build>
@@ -35,7 +38,7 @@
 	      				<uri>https://anypoint.mulesoft.com</uri>
 	      				<muleVersion>${muleVersion}</muleVersion>
 	      				<applicationName>Devops-${env}</applicationName>
-	      				<businessGroup>nous infosolutions</businessGroup>
+	      				<businessGroup>Nous</businessGroup>
 	      				<workers>${workers}</workers>
 					    <workerType>${workerType}</workerType>					    
 					    <environment>${env}</environment>
