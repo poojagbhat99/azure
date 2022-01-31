@@ -33,18 +33,18 @@
 				<extensions>true</extensions>
 				<configuration>
     				<cloudHubDeployment>
-    					<username>${username}</username>
-    					<password>${password}</password>
+    					<username>Poojabhat1</username>
+    					<password>Pooja@99</password>
 	      				<uri>https://anypoint.mulesoft.com</uri>
-	      				<muleVersion>${muleVersion}</muleVersion>
-	      				<applicationName>Devops-${env}</applicationName>
+	      				<muleVersion>4.3.0</muleVersion>
+	      				<applicationName>Devops</applicationName>
 	      				<businessGroup>Nous</businessGroup>
-	      				<workers>${workers}</workers>
-					    <workerType>${workerType}</workerType>					    
-					    <environment>${env}</environment>
+	      				<workers>1</workers>
+					    <workerType>MICRO</workerType>					    
+					    <environment>dev</environment>
 					    <objectStoreV2>true</objectStoreV2>
 					<properties>
-					<env>${properties}</env>
+					<env>dev</env>
 					</properties>
     				</cloudHubDeployment>
     				<coverage>
